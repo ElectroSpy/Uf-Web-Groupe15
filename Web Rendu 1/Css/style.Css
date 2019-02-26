@@ -85,6 +85,7 @@ nav li:hover a{
 .sous-menu a{
     color: rgb(205, 227, 255);;
     background-color:hsl(221, 44%, 46%);
+    height: 100%;
     line-height: 50px;
     text-decoration: none;
     display: block;
@@ -111,13 +112,13 @@ main{
     position: absolute;
     top: 0px;
     width: 100%;
-    height:1000px;
+    height:100%;
     z-index: 1;
 }
 .jc{
     justify-content: center;
     width: 100%;
-    height: 40%;
+    height: 45%;
     display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-column-gap: 2.5%;
@@ -147,7 +148,7 @@ main{
   }
 .txt{
     margin-top: 60px;
-    height:300px ;
+    height:30%;
     background-color:rgba(255,255, 255, 0.75);
     
 }
