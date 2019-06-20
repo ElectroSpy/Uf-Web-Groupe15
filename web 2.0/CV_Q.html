@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="Css/CV_Q.Css">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="">Accueil</a></li>
+                <li><a href="Cv.html">Cv</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="CV_Q.html" method="POST">
+            <section class="perso">
+            <div class="labelg">
+                <label for="Nom">Nom de famille * : </label>
+                <label for="Prénom">Prénom * : </label> 
+                <label for="Date de naissance"> Date de naissance * : </label>
+                <label for="Metier">Metier * : </label>  
+                <label for="Permis">Permis : </label>
+            </div>
+            <div class="questionG">
+                <input type="text" name="Nom" placeholder="Ex: Dupont" required class="input_questionPerso">
+                <input type="text" name="Prénom" placeholder="Ex: Jean" required class="input_questionPerso">  
+                <input type="date" name="Date de naissance" placeholder="JJ/MM/AAAA" required class="input_questionPerso">  
+                <input type="text" name="Metier" placeholder="Ex: Developpeur Web" required class="input_questionPerso">  
+                <input type="text" name="Permis" placeholder="Ex: B" class="input_questionPerso">
+            </div>
+            </section>
+            <section class="contact">
+                    <div class="labeld">
+                            <label id="Adress" for="Adresse">Adresse * : </label>  
+                            <br><br><br><br><br><br><br>
+                            <label id="comp" for="Complément d'adresse">Complément d'adresse :</label> 
+                            <br> 
+                            <label for="Mail">Adresse mail * : </label> 
+                            <label for="Telephone">Numéro de téléphone * : </label>  
+                            <label for="LikedIn" name>LikedIn :</label>  
+                            <label for="GitHub" name>GitHub :</label>
+                        </div>
+                        <div class="questionD">  
+                <input type="text" name="Rue et Numéro" placeholder="Rue et numéro" required class="input_questionContact">
+                <input type="number" name="Code Postal" placeholder="Code Postal" required class="input_questionContact">
+                <input type="text" name="Ville" placeholder="Ville" required class="input_questionContact">
+                <input type="text" name="Département" placeholder="Département" required class="input_questionContact">
+                <textarea name="Complément d'adresse" cols="80" rows="5" placeholder="Ex: Lieu dit; Bâtiments; ..."></textarea>
+                <br><br>
+                <input type="mail" name="Mail" placeholder="Ex: jean.dupont@gmail.com" required class="input_questionContact">
+                <input type="phone" name="Telephone" placeholder="Ex: +33 6 69 69 69 69" required class="input_questionContact">
+                <input type="text" name="LikedIn" placeholder="Inserez le lien de votre page" class="input_questionContact">
+                <input type="text" name="GitHub" placeholder="Inserez le lien de votre page" class="input_questionContact">
+            </div> 
+        </section> 
+            <section class="exp">
+                <div class="labelg">
+                    <label for="Date debut"> Date d'embauche *: </label>  
+                    <label for="Date fin"> Date fin de contrat: </label>  
+                    <label for="Entreprise" name>Entreprise *:</label>
+                    <label for="Poste" name>Poste * :</label> 
+                    <label for="Description poste">Description du poste *:</label>  
+                    <br>
+                    <label for="Date debut"> Date d'embauche *: </label>  
+                    <label for="Date fin"> Date fin de contrat: </label>  
+                    <label for="Entreprise" name>Entreprise *:</label>
+                    <label for="Poste" name>Poste * :</label> 
+                    <label for="Description poste">Description du poste *:</label> 
+                    <br>
+                    <label for="Date debut"> Date d'embauche *: </label>  
+                    <label for="Date fin"> Date fin de contrat: </label>  
+                    <label for="Entreprise" name>Entreprise *:</label>
+                    <label for="Poste" name>Poste * :</label> 
+                    <label for="Description poste">Description du poste *:</label> 
+
+                </div> 
+                <div class="questionG">
+                    <input type="text" name="Entreprise" placeholder="Ex: LaPoste" required class="input_questionExp">
+
+                    <input type="date" name="Date debut travail" placeholder="JJ/MM/AAAA" required class="input_questionExp">
+                    <input type="date" name="Date fin travail" placeholder="JJ/MM/AAAA" class="input_questionExp">  
+                    <input type="text" name="Poste" placeholder="Ex: Data Scientist" required class="input_questionExp">
+                    <textarea name="Description poste" cols="80" rows="5" placeholder="Tâches effectuées" required></textarea>
+                    <br>
+                    <input type="text" name="Entreprise" placeholder="Ex: LaPoste" required class="input_questionExp">
+
+                    <input type="date" name="Date debut travail" placeholder="JJ/MM/AAAA" required class="input_questionExp">
+                    <input type="date" name="Date fin travail" placeholder="JJ/MM/AAAA" class="input_questionExp">  
+                    <input type="text" name="Poste" placeholder="Ex: Data Scientist" required class="input_questionExp">
+                    <textarea name="Description poste" cols="80" rows="5" placeholder="Tâches effectuées" required></textarea>
+                    <br>
+                    <input type="text" name="Entreprise" placeholder="Ex: LaPoste" required class="input_questionExp">
+
+                    <input type="date" name="Date debut travail" placeholder="JJ/MM/AAAA" required class="input_questionExp">
+                    <input type="date" name="Date fin travail" placeholder="JJ/MM/AAAA" class="input_questionExp">  
+                    <input type="text" name="Poste" placeholder="Ex: Data Scientist" required class="input_questionExp">
+                    <textarea name="Description poste" cols="80" rows="5" placeholder="Tâches effectuées" required></textarea>
+                </div> 
+                </section>
+                <section class="formation">
+                        <div class="labeld">
+                    <label for="Date debut formation"> Date de début de formation *: </label>
+                    <label for="Date fin formation"> Date fin de formation : </label>  
+                    <label for="Ecole" name>Ecole * :</label> 
+                    <label for="Nom formation" name>Nom de la formation *:</label> 
+                    <label for="Description formation">Description de la formation *:</label>  
+                    <br>
+                    <label for="Date debut formation"> Date de début de formation *: </label>
+                    <label for="Date fin formation"> Date fin de formation : </label>  
+                    <label for="Ecole" name>Ecole * :</label> 
+                    <label for="Nom formation" name>Nom de la formation *:</label> 
+                    <label for="Description formation">Description de la formation *:</label>  
+                    <br>
+                    <label for="Date debut formation"> Date de début de formation *: </label>
+                    <label for="Date fin formation"> Date fin de formation : </label>  
+                    <label for="Ecole" name>Ecole * :</label> 
+                    <label for="Nom formation" name>Nom de la formation *:</label> 
+                    <label for="Description formation">Description de la formation *:</label>  
+                </div> 
+                <div class="questionD">  
+                    <input type="date" name="Date debut formation" placeholder="JJ/MM/AAAA" required class="input_questionFormation">
+                
+                    <input type="date" name="Date fin formation" placeholder="JJ/MM/AAAA" class="input_questionFormation">
+                      
+                    <input type="text" name="Ecole" placeholder="Ex: Paris YNOV Campus" required class="input_questionFormation">
+
+                    <input type="text" name="Nom de la formation" placeholder="Ex: Ingésup" required class="input_questionFormation">
+ 
+                    <textarea name="Description formation" cols="80" rows="5" placeholder="Diplome obtenu et modules acquis" required></textarea>
+                    <br>
+                    <input type="date" name="Date debut formation" placeholder="JJ/MM/AAAA" required class="input_questionFormation">
+                
+                    <input type="date" name="Date fin formation" placeholder="JJ/MM/AAAA" class="input_questionFormation">
+                      
+                    <input type="text" name="Ecole" placeholder="Ex: Paris YNOV Campus" required class="input_questionFormation">
+
+                    <input type="text" name="Nom de la formation" placeholder="Ex: Ingésup" required class="input_questionFormation">
+ 
+                    <textarea name="Description formation" cols="80" rows="5" placeholder="Diplome obtenu et modules acquis" required></textarea>
+                    <br>
+                    <input type="date" name="Date debut formation" placeholder="JJ/MM/AAAA" required class="input_questionFormation">
+                
+                    <input type="date" name="Date fin formation" placeholder="JJ/MM/AAAA" class="input_questionFormation">
+                      
+                    <input type="text" name="Ecole" placeholder="Ex: Paris YNOV Campus" required class="input_questionFormation">
+
+                    <input type="text" name="Nom de la formation" placeholder="Ex: Ingésup" required class="input_questionFormation">
+ 
+                    <textarea name="Description formation" cols="80" rows="5" placeholder="Diplome obtenu et modules acquis" required></textarea>
+
+                </div>
+            <button type="submit" name="Valider">Valider les changements</button>
+        </form>
+
+    </main>
+            <footer>
+        </footer>
+</body>
+</html>
