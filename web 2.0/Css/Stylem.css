@@ -100,6 +100,12 @@ footer ul li:nth-child(3){
 }
 
 
+.comp{
+  position: relative;
+  height: 90%;
+  top: 15%;
+  width: 15%;
+}
 
 
 
