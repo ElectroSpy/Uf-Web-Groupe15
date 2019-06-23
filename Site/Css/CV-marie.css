@@ -1,0 +1,239 @@
+/* Nullifier */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+  height: auto;
+}
+
+main{
+  width: 100%;
+  height: 79.4vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+
+}
+
+nav ul {
+  position: fixed;
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: lightgray 1px solid;
+  background:gray;
+  position: fixed;
+  height: 6%;
+  z-index: 8;
+}
+
+nav ul li a {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  z-index: 5;
+} 
+nav ul li a:hover{
+  color: rgb(26, 63, 110);
+}
+nav ul li a i {
+  position: absolute;
+  left: 53%;
+}
+
+
+
+footer{
+  display: fixed;
+  position:absolute;
+  width: 100%;
+  bottom: 30%;
+}
+FOOTER ul{
+  position: relative;
+  width: 100%;
+  bottom: 30%;
+}
+
+ footer ul li{
+  display: inline;
+  font-size: 200%;
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+  color: white;
+}
+footer ul li:nth-child(2){
+  left: 35%;
+}
+footer ul li:nth-child(3){
+  left:15%;
+}
+.contact{
+  position: relative;
+  height: 90%;
+  top: 15%;
+  width: 25%;
+  left: 3%;
+
+}
+.formation{
+  position: relative;
+  height: 90%;
+  top: 15%;
+  width: 35%;
+  
+}
+.exp{
+  position: relative;
+  height: 90%;
+  top: 15%;
+  width: 35%;
+  
+}
+
+
+.comp{
+  position: relative;
+  height: 90%;
+  top: 15%;
+  width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== FOOTER =====*/
+
+footer{
+    z-index: 3;
+    bottom: 0%;
+    height: 200PX;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #999, black);
+    position: relative;
+    animation: animate linear 20s infinite;
+  }
+  footer:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 200px solid transparent;
+    border-left: 200px solid #FFF;
+    opacity: 0.1;
+  }
+  
+  footer:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid #FFF;
+    opacity: 0.1;
+  }
+  
+  
+  footer i:first-child {
+    font-size: 180%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    color: white;
+  }
+  footer i:nth-child(2) {
+    font-size: 180%;
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    color: white;
+  }
+  footer i:nth-child(3){
+    font-size: 180%;
+    position: absolute;
+    bottom: 50%;
+    left: 60%;
+    color: white;
+  }
+  
+  @keyframes animate{
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    50%{
+      filter: hue-rotate(360deg);
+    }
+100%{

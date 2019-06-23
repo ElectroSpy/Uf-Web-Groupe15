@@ -1,0 +1,222 @@
+/* Nullifier */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+  height: auto;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+}
+ul {
+  position: relative;
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: rgba(255, 255, 255, 0.226) 1px solid;
+  background:transparent;
+  position: fixed;
+  height: 6%;
+  z-index: 1;
+}
+
+li a {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  z-index: 5;
+} 
+li a:hover{
+  color: rgb(26, 63, 110);
+}
+
+
+#txt{
+  display: inline-flex;
+  height: 100%;
+  width: 70%;
+  background-color: #8C8C8C;
+  z-index: 1;
+  position: relative;
+}
+#txt h1.f{
+  position: absolute;
+  margin-left: 20px;
+  color: rgb(26, 63, 110);
+  top: 32%;
+  line-height: 130%;
+  font-size: 115px;
+  left: 15%;
+  }
+#txt h1{
+position: absolute;
+margin-left: 20px;
+color: rgb(26, 63, 110);
+top: 49%;
+line-height: 130%;
+font-size: 85px;
+left: 15%;
+}
+#txt h3{
+  position: relative;
+  top: 65%;
+  font-size: 30px;
+  left: 17%;
+  color: #FFF;
+}
+#img{
+  display: inline-flex;
+  position: absolute;
+  right: 0%;
+  height: 100vh;
+  width:50%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-image: url(../Img/Bruno.jpg);
+  clip-path: polygon(11% 0, 100% 0, 100% 100%, 21% 100%);
+  z-index: 2;
+}
+
+#info{
+display: inline-flex;
+height: 100vh;
+width:50%;
+clip-path: polygon(11% 0, 100% 0, 100% 100%, 21% 100%);
+background-color:rgba(255, 255, 255, 0.726);
+z-index: 3;
+position: absolute;
+Right: -50%;
+transition: all 1s ease-in;
+}
+#info h1{
+  text-align: center;
+  width: 80%;
+  position: relative;
+  left: 40%;
+  top: 5%;
+  height: 100%;
+  color: rgb(26, 63, 110);
+  font-size: 45px
+
+}
+.skills h2#s4{
+  position: absolute;
+  top: 0%;
+  color: rgb(90, 90, 90);
+  font-size:28px;
+  left: 0%;
+}
+.skills h2#s5{
+  position: absolute;
+  top: 50%;
+  color: rgb(90, 90, 90);
+  font-size:28px;
+  left: 0%;
+}
+.skills h2#s6{
+  position: absolute;
+  top: 100%;
+  color: rgb(90, 90, 90);
+  font-size:28px;
+  left: 0%;
+}
+.skills h2#s7{
+  position: absolute;
+  top: 150%;
+  color: rgb(90, 90, 90);
+  font-size:28px;
+  left: 0%;
+}
+.skills{
+  position: relative;
+  display: inline-flex;
+  margin-left: 7%;
+  margin-bottom: 4%;
+  margin: 10%;
+  height: 40%;
+  width: 90%;
+
+}
+.containerskills{
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+position: relative;
+height: 75%;
+width: 600%;
+top: 14%;
+}
+.skillp{
+  display:block;
+  height: 30px;
+  margin: 5px;
+  width: 30px;
+  border-radius:50%;
+  background-color: rgb(26, 63, 110);
+}
+.skillcontainer{
+  display:inline-flex;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+}
+#sc1{
+  position: relative;
+  top:50%;
+  left:15%;
+}
+#sc2{
+  position: relative;
+  top:50%;
+  left:33%;
+}
+#sc3{
+  position: relative;
+  top:40%;
+  left:15%;
+}
+#sc4{
+  position: relative;
+  top:40%;
+  left:33%;
+}
+
+main:hover #info{
+transition: all 1s ease-in;
+right: 0;
+}
+
+ul.bot{
+  position: absolute;
+  display: inline-flex;
+  width: 100%;
+  bottom: 5%;
+}
+
+div ul.bot li{
+  display: flex;
+  font-size: 240%;
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  text-align: center;
+  color: white;
+}
+div ul.bot li:nth-child(2){
+  left: 55%;
+}
+div ul.bot li:nth-child(3){
+  left:15%;
+}
