@@ -14,69 +14,8 @@ main{
   overflow: hidden;
   position: relative;
 }
-.profils{
-  top:10%;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  position: relative;
-  background-color: white;
-  z-index: 2;
-}
 
-.txt{
-  font-size: 35px;
-  display:none;
-  bottom: 15%;
-  background-color:rgba(247, 247, 247, 0.712);
-  z-index: 5;
-  height: 15%;
-  width: 100%;
-  position: absolute;
-  text-decoration: none;
-  color: rgb(26, 63, 110);
-  transition: all 1s ease-in;
-}
-
-.profil:hover .txt{
-  display: flex;
-  transition: all 1s ease-in;
-}
-
-.txt p{
-  position: absolute;
-  text-align: center;
-  height: 30%;
-  width: 100%;
-
-}
-
-.Nom{
-  bottom: 20px;
-}
-
-.profil:first-child .txt{
-  color: rgb(26, 63, 110);
-}
-
-.profil:nth-child(2) .txt{
-  color: rgb(255, 165, 0);
-}
-
-.profil:last-child .txt{
-  color: rgb(150, 0, 24);
-}
-.profil{
-  overflow: hidden;
-  margin: 0.16%;
-  position: relative;
-  width: 33%;
-  height: 100%;
-  background-color: black;
-  z-index: 2;
-}
+/* Nav */
 
 nav li.Connect {
   display: inline-flex;
@@ -150,6 +89,73 @@ nav ul li i {
   left: 53%;
 }
 
+/* Body */
+
+.profils{
+  top:10%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+.txt{
+  font-size: 35px;
+  display:none;
+  bottom: 15%;
+  background-color:rgba(247, 247, 247, 0.712);
+  z-index: 5;
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  text-decoration: none;
+  color: rgb(26, 63, 110);
+  transition: all 1s ease-in;
+}
+
+.profil:hover .txt{
+  display: flex;
+  transition: all 1s ease-in;
+}
+
+.txt p{
+  position: absolute;
+  text-align: center;
+  height: 30%;
+  width: 100%;
+
+}
+
+.Nom{
+  bottom: 20px;
+}
+
+.profil:first-child .txt{
+  color: rgb(26, 63, 110);
+}
+
+.profil:nth-child(2) .txt{
+  color: rgb(255, 165, 0);
+}
+
+.profil:last-child .txt{
+  color: rgb(150, 0, 24);
+}
+.profil{
+  overflow: hidden;
+  margin: 0.16%;
+  position: relative;
+  width: 33%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
+/* Footer */
 
 footer{
   display: fixed;
@@ -157,13 +163,11 @@ footer{
   width: 100%;
   bottom: 30%;
 }
-FOOTER ul{
+footer ul{
   position: relative;
   width: 100%;
   bottom: 30%;
 }
-
-/* ===== FOOTER =====*/
 
  footer ul li{
   display: inline;
