@@ -14,6 +14,9 @@ main{
   overflow: hidden;
   position: relative;
 }
+
+/* Nav */
+
 ul {
   position: relative;
   display: inline-flex;
@@ -41,6 +44,7 @@ li a:hover{
   color: rgb(26, 63, 110);
 }
 
+/* Body */
 
 #txt{
   display: inline-flex;
