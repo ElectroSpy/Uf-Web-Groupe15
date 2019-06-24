@@ -94,7 +94,7 @@ a{
 
 
 
-/* ===== FOOTER =====*/
+/* Footer */
 
 footer{
   display: fixed;
@@ -106,6 +106,14 @@ FOOTER ul{
   position: relative;
   width: 100%;
   bottom: 30%;
+  z-index: 3;
+  bottom: 0px;
+  height: 200PX;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(90deg, #999, black);
+  position: relative;
+  animation: animate linear 20s infinite;
 }
 
  footer ul li{
@@ -124,16 +132,6 @@ footer ul li:nth-child(3){
   left:15%;
 }
 
-footer{
-    z-index: 3;
-    bottom: 0px;
-    height: 200PX;
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(90deg, #999, black);
-    position: relative;
-    animation: animate linear 20s infinite;
-  }
   footer:before{
     content: '';
     position: absolute;
