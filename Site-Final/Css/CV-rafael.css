@@ -5,13 +5,15 @@ body {
   font-family: 'Libre Baskerville', serif;
   height: auto;
 }
-/* Nullifier */
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Libre Baskerville', serif;
   height: auto;
 }
+
+/* Nav */
 
 main{
   width: 100%;
@@ -54,35 +56,9 @@ nav ul li a i {
   left: 53%;
 }
 
+/* Body */
 
 
-footer{
-  display: fixed;
-  position:absolute;
-  width: 100%;
-  bottom: 30%;
-}
-FOOTER ul{
-  position: relative;
-  width: 100%;
-  bottom: 30%;
-}
-
- footer ul li{
-  display: inline;
-  font-size: 200%;
-  position: absolute;
-  left: 25%;
-  bottom: 10%;
-  text-align: center;
-  color: white;
-}
-footer ul li:nth-child(2){
-  left: 35%;
-}
-footer ul li:nth-child(3){
-  left:15%;
-}
 .contact{
   position: relative;
   height: 90%;
@@ -155,6 +131,33 @@ footer{
     opacity: 0.1;
   }
   
+footer{
+  display: fixed;
+  position:absolute;
+  width: 100%;
+  bottom: 30%;
+}
+FOOTER ul{
+  position: relative;
+  width: 100%;
+  bottom: 30%;
+}
+
+ footer ul li{
+  display: inline;
+  font-size: 200%;
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+  color: white;
+}
+footer ul li:nth-child(2){
+  left: 35%;
+}
+footer ul li:nth-child(3){
+  left:15%;
+}
   
   footer i:first-child {
     font-size: 180%;
