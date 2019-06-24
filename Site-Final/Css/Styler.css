@@ -57,6 +57,17 @@ main{
   bottom: 20px;
 }
 
+.profil:first-child .txt{
+  color: rgb(26, 63, 110);
+}
+
+.profil:nth-child(2) .txt{
+  color: rgb(255, 165, 0);
+}
+
+.profil:last-child .txt{
+  color: rgb(150, 0, 24);
+}
 .profil{
   overflow: hidden;
   margin: 0.16%;
