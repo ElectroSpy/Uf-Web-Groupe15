@@ -99,9 +99,13 @@ a{
   color: black;
 }
 
-/* ===== FOOTER =====*/
+/* Footer */
 
 footer{
+    display: fixed;
+   position:absolute;
+   width: 100%;
+   bottom: 30%;
     z-index: 3;
     bottom: 0px;
     height: 200PX;
@@ -131,13 +135,7 @@ footer{
     opacity: 0.1;
   }
   
-footer{
-  display: fixed;
-  position:absolute;
-  width: 100%;
-  bottom: 30%;
-}
-FOOTER ul{
+Footer ul{
   position: relative;
   width: 100%;
   bottom: 30%;
