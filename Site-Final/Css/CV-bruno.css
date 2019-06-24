@@ -16,6 +16,8 @@ main{
 
 }
 
+/* Nav */
+
 nav ul {
   position: fixed;
   display: inline-flex;
@@ -47,6 +49,8 @@ nav ul li a i {
   left: 53%;
 }
 
+/* Body */
+
 h3:first-child{
   color: rgb(26, 63, 110);
 }
@@ -58,33 +62,6 @@ a{
   color: black;
 }
 
-footer{
-  display: fixed;
-  position:absolute;
-  width: 100%;
-  bottom: 30%;
-}
-FOOTER ul{
-  position: relative;
-  width: 100%;
-  bottom: 30%;
-}
-
- footer ul li{
-  display: inline;
-  font-size: 200%;
-  position: absolute;
-  left: 25%;
-  bottom: 10%;
-  text-align: center;
-  color: white;
-}
-footer ul li:nth-child(2){
-  left: 35%;
-}
-footer ul li:nth-child(3){
-  left:15%;
-}
 .contact{
   position: relative;
   height: 90%;
@@ -118,6 +95,34 @@ footer ul li:nth-child(3){
 
 
 /* ===== FOOTER =====*/
+
+footer{
+  display: fixed;
+  position:absolute;
+  width: 100%;
+  bottom: 30%;
+}
+FOOTER ul{
+  position: relative;
+  width: 100%;
+  bottom: 30%;
+}
+
+ footer ul li{
+  display: inline;
+  font-size: 200%;
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+  text-align: center;
+  color: white;
+}
+footer ul li:nth-child(2){
+  left: 35%;
+}
+footer ul li:nth-child(3){
+  left:15%;
+}
 
 footer{
     z-index: 3;
